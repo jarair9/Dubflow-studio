@@ -1,5 +1,0 @@
-ffmpeg
-libsndfile1
-git-lfs
-python3-dev
-build-essential

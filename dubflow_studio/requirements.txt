@@ -1,0 +1,37 @@
+# DubFlow Studio Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+streamlit==1.40.0
+numpy==1.26.4
+pandas==2.1.4
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+pydub==0.25.1
+pyrubberband==0.3.0
+pyloudnorm==0.1.0
+noisereduce==3.0.0
+
+# Video Processing
+ffmpeg-python==0.2.0
+opencv-python==4.8.1.78
+
+# AI Models
+torch==2.1.2
+torchaudio==2.1.2
+transformers==4.36.0
+faster-whisper==0.10.0
+pyannote.audio==3.1.1
+TTS==0.22.0
+
+# Source Separation
+demucs==4.0.1
+diffq==0.2.4
+
+# Utilities
+tqdm==4.66.1
+coloredlogs==15.0.1

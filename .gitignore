@@ -1,36 +1,116 @@
-# Virtual environment
-.venv/
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Environment variables (SECRETS - DO NOT COMMIT)
-.env
-
-# Output directories
-output/
-temp/
-bgm/
-
-# Gradio certificates
-.gradio/
-
-# Model cache
-*.pth
-*.pt
-checkpoints/
-
-# OS files
-.DS_Store
-Thumbs.db
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Large files
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Model caches
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Project outputs
+projects/
+outputs/
+temp/
+tmp/
+*.wav
+*.mp3
 *.mp4
 *.mkv
 *.avi
-*.wav
-*.mp3
+*.srt
+*.vtt
+
+# Audio/Video processing
+*.m4a
+*.flac
+*.ogg
+*.webm
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Wav2Lip (if cloned)
+Wav2Lip/
+Wav2Lip-checkpoints/
+
+# RVC (if cloned)
+RVC/
+
+# Streamlit
+.streamlit/
+
+# Checkpoints
+checkpoint_*.json
+
+# OS
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
